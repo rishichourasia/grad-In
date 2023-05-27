@@ -47,7 +47,7 @@ export const anuragLoginCredentials = {
 };
 
 export const ankushLoginCredentials = {
-  email: "ankush@gmail.com",
+  email: "rishi@gmail.com",
   password: "123456",
 };
 

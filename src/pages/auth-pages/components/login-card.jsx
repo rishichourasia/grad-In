@@ -81,7 +81,7 @@ const LoginCard = () => {
         block={true}
         loading={status === "loading"}
       >
-        Login as Anurag
+        Login as Test
       </Button>
       <Button
         onClick={() => loginClick(ankushLoginCredentials)}
@@ -89,7 +89,7 @@ const LoginCard = () => {
         block={true}
         loading={status === "loading"}
       >
-        Login as Ankush
+        Login as Rishi
       </Button>
     </div>
   );

@@ -51,7 +51,7 @@ const Navbar = () => {
               />
             </Col>
             <Col className="navbar_heading" md={4} lg={3} xl={2}>
-              <span className="navbar_heading">TradePeer</span>
+          
             </Col>
           </Row>
         </Col>

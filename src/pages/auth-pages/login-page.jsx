@@ -25,8 +25,8 @@ const LoginPage = () => {
       <Row>
         <Col xs={0} md={9} lg={10}>
           <p className="login_hero_text">
-            <span className="text_primary_color">TradePeer </span>
-            Connect with Traders around the globe.
+            <span className="text_primary_color">Grad In </span>
+            Alumni Connect Community Platform
           </p>
           <div className="login_image_wrapper">
             <img src="./images/Group.svg" alt="" />
@@ -36,7 +36,7 @@ const LoginPage = () => {
           <div className="login_wrapper">
             <Card
               className="auth_card"
-              title="Welcome to TradePeer"
+              title="Welcome to Grad In"
               tabList={tabList}
               activeTabKey={activeTabKey1}
               onTabChange={(key) => {
@@ -48,7 +48,7 @@ const LoginPage = () => {
           </div>
         </Col>
       </Row>
-      <FooterComponent />
+      {/* <FooterComponent /> */}
     </div>
   );
 };

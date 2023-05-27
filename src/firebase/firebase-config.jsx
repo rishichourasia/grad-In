@@ -3,17 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_KEY,
-
-  authDomain: "tradepeer-33c0f.firebaseapp.com",
-
-  projectId: "tradepeer-33c0f",
-
-  storageBucket: "tradepeer-33c0f.appspot.com",
-
-  messagingSenderId: "521221497018",
-
-  appId: "1:521221497018:web:6deeedc92c0810e8146283",
+  apiKey: "AIzaSyCBH4WfE3f5KoKx87flaRpUvhoV45h4upY",
+  authDomain: "tradepeer-6632f.firebaseapp.com",
+  projectId: "tradepeer-6632f",
+  storageBucket: "tradepeer-6632f.appspot.com",
+  messagingSenderId: "383360271390",
+  appId: "1:383360271390:web:3819045885e1b48d07da0f"
 };
 
 const app = initializeApp(firebaseConfig);
