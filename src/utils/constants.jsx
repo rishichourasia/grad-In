@@ -12,7 +12,7 @@ export const statusConstants = {
 };
 
 export const cloudinaryLink =
-  "https://api.cloudinary.com/v1_1/lucidui-cl-a/image/upload";
+  "https://api.cloudinary.com/v1_1/drlcxouw9/image/upload";
 
 export const toastConstants = {
   signupSuccess: "SignUp Successful",

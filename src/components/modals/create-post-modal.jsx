@@ -148,7 +148,7 @@ const NewPostModal = () => {
       <p className="edit_profile_text">Add Image to the Post</p>
       <Upload
         action={cloudinaryLink}
-        data={{ upload_preset: "erwyc7ba" }}
+        data={{ upload_preset: "ml_default" }}
         listType="picture-card"
         fileList={fileList}
         onChange={onChange}
